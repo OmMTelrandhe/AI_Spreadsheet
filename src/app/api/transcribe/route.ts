@@ -13,7 +13,7 @@ export async function POST(req: Request): Promise<Response> {
       return new Response("File not provided", { status: 400 });
     }
 
-    const transcription = await openai.audio.transcriptions.create({
+    const transcription = await openai.audio.transcriptions.{
       file,
       model: "whisper-1",
     });

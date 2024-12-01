@@ -61,7 +61,7 @@ import {
 import OpenAI from "openai";
 
 // Azure OpenAI Configuration
-const instance = "viresh"; // Replace with your Azure OpenAI instance name
+const instance = "viresh-v2"; // Replace with your Azure OpenAI instance name
 const model = "gpt-4o"; // Replace with your model deployment name
 const apiVersion = "2023-03-15-preview"; // Use the correct API version for Azure
 
